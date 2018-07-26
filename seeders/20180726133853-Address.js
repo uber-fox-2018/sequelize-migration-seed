@@ -13,7 +13,7 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-      let rawData = fs.readFileSync(`./contacts.csv`,`utf8`).split(`\n`)
+      let rawData = fs.readFileSync(`./addresses.csv`,`utf8`).split(`\n`)
       let fileData = []
       
       for (let i = 0; i < rawData.length-1; i++) {
