@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "sequelize-migration-seed",
   "version": "1.0.0",
   "description": "",
@@ -21,4 +22,20 @@
     "sequelize": "^4.38.0"
   },
   "devDependencies": {}
+=======
+  "name": "kamis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postgreSQL.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0"
+  }
+>>>>>>> d762cffe53b26c40a2281fe730a60787f674b87f
 }
